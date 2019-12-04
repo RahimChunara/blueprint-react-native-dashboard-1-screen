@@ -42,7 +42,6 @@ echo ">> insert 3"
 sed -i "s/${EXT_POINT_3}/&\n${DATA_3}/g" $BASE_PATH/src/navigator/mainNavigator.js
 
 BE_BLUEPRINT="dashboard"
-NAME="Dashboard 1"
 DATA_4="path('api/v1/', include('${dashboard}.api.v1.urls')),"
 
 echo "copy BE for Blueprint"
