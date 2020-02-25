@@ -5,7 +5,7 @@ const initialState = {
   errors: {getExercises: null}
 };
 
-export const Dashboard1BlueprintReducer = (state = initialState, action) => {
+export default Dashboard1BlueprintReducer = (state = initialState, action) => {
   switch (action.type) {
     case actions.DASHBOARD_GET_EXERCISE_SUCCESS:
       return {...state, exercises: action.exercises};
